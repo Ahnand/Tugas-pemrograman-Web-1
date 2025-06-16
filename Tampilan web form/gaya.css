@@ -1,0 +1,103 @@
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 1px;
+            padding: 1px;
+        }
+
+        .heading {
+            text-align: center;
+            color: #fdfbfb;
+            background-color: #007BFF;
+            padding: 50px;
+            display: flex;
+            margin-bottom: 10px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .kepala {
+          max-width: 800px;
+          margin: auto;
+        }
+        .heading h1{
+          font-size: 2em;
+          margin-bottom: 10px;
+        }
+        .heading p{
+          font-size: 1em;
+          margin-top: auto;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .form-info {
+            background: #fff;
+            padding: 39px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 45%;
+        }
+
+        .form-info p{
+          margin: auto
+        }
+
+        .form-info h5{
+          font-size: 12px;
+          text-align: center;
+          color: #21432c;
+          background-color: rgba(173, 255, 255, 0.96);
+          padding: 10px 10px;
+          margin: 5px;
+        }
+
+        .form-info h2 {
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .form-info label {
+            display: block;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            color: #333;
+            font-size: smaller;
+        }
+        
+        .form-info input[type="text"],
+        .form-info input[type="email"] {
+             width: 100%;
+             padding: 10px;
+             margin-bottom: 15px;
+             border: 1px solid #ddd;
+             border-radius: 4px;
+        }
+
+        .form-info button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        
+
+
+        .form-info button:hover {
+            background-color: #0056b3;
+        }
+        footer{
+          text-align: center;
+          background-color: aqua;
+          color: #15151a;
+          padding: 5px 5px;
+        }
